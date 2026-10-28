@@ -4,11 +4,11 @@ import twitter from "../imgs/twitter.svg";
 
 const Sociais = () => {
     return (
-        <view className="flex gap-5">
+        <div className="flex gap-5" style={{marginTop:"30px"}}>
             <img src={facebook} alt="" />
             <img src={instagram} alt="" />
             <img src={twitter} alt="" />
-        </view>
+        </div>
     );
 }
 
