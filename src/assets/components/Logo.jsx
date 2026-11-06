@@ -1,13 +1,13 @@
 import logoHeader from "../imgs/logo-header.svg"
 
-const Logo = () => {
+const Logo = ({largura, altura}) => {
     return (
         <>
             <img 
                 src={logoHeader}
                 alt="Logo da Digital Store"
-                width={138}
-                height={24}
+                width={largura}
+                height={altura}
             />
         </>
 

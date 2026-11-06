@@ -1,19 +1,16 @@
 import React from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import ProductCard from "../components/ProductCard";
+import ProductListing from "../components/ProductListing";
 import styled from "styled-components";
+import Layout from "./Layout";
 
-const main = styled.main`
-    background-color: blue;
-    margin: 0;
-`;
 
 const HomePage = () => {
     return (
         <main>
-            <Header />
-            <Footer />
-
+        <Layout/>
         </main>
     );
 };
